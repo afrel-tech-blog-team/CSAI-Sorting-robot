@@ -57,7 +57,7 @@ def disconnect_motor():
 #--- main
 connect_motor()  # モーターと接続
 
-cap = cv.VideoCapture(1)
+cap = cv.VideoCapture(0)
 model = TeachableMachine(model_path="keras_model.h5",
                          labels_file_path="labels.txt")
 
