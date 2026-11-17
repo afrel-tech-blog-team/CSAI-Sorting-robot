@@ -1,8 +1,8 @@
 # CSAI-Sorting-robot
+<img width="845" height="557" alt="sorting_robot" src="https://github.com/user-attachments/assets/1c199153-3107-4c5b-86d5-2e3b77a9cb44" />
+
 CS&AIセットのシングルモーターを使った仕分けロボットです。
-カメラの映像から「リンゴ」と「バナナ」を認識して、モーターを制御します。
-リンゴの場合、シングルモーターを+45度に回転します。
-バナナの場合、シングルモーターを-45度に回転します。
+カメラの映像を認識して、「リンゴ」の場合、シングルモーターを+45度に回転します。「バナナ」の場合、シングルモーターを-45度に回転します。
 
 ## Files
 ・project.tm : 「Teachable Machine」のプロジェクトファイル。
