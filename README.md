@@ -1,8 +1,8 @@
 # CSAI-Sorting-robot
 <img width="845" height="557" alt="sorting_robot" src="https://github.com/user-attachments/assets/1c199153-3107-4c5b-86d5-2e3b77a9cb44" />
 
-CS&AIセットのシングルモーターを使った仕分けロボットです。
-カメラの映像を認識して、「リンゴ」の場合、シングルモーターを+45度に回転します。「バナナ」の場合、シングルモーターを-45度に回転します。
+CS&AIセットのシングルモーターを使った「仕分けロボット」です。
+Webカメラの映像を認識して、「リンゴ」の場合、シングルモーターを+45度に回転します。「バナナ」の場合、シングルモーターを-45度に回転します。
 
 ## Files
 ・project.tm : 「Teachable Machine」のプロジェクトファイル。
@@ -13,6 +13,9 @@ CS&AIセットのシングルモーターを使った仕分けロボットです
 
 ・sorting_robot.py : プログラム。
 VideoCapture関数の引数でカメラを選択できます。
+
+## Movie
+https://youtu.be/x_-NzZA3qw4
 
 ## ライセンス
 ・当プログラムの著作権は株式会社アフレルと松原拓也に帰属します。
